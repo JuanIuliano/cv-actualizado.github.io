@@ -1,0 +1,835 @@
+
+.header {
+    background:linear-gradient(rgb(250, 212, 44), white);
+    padding: 3%;
+    width: 100%;
+}
+
+#navegador1 {
+    color: rgb(241, 182, 105);
+    position: absolute;
+    width: 100vw;
+    left: 0;
+}
+
+    
+#textobienvenida{
+    background-color: rgb(248, 192, 69);
+    padding-inline: 110px;
+    height: 90px;
+}
+
+#texto0 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+#frooo {
+    width: 310px;
+    height: 310px;
+    position: fixed;
+    top: 45px;
+    right: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.p1{
+    background:linear-gradient(rgb(255, 213, 134), rgb(248, 223, 177));
+    color: rgb(177, 124, 56);
+    max-width: 1600px;
+}
+
+#loqbusco {
+    background:linear-gradient(rgb(252, 208, 90),white);
+    position: absolute;
+    bottom: 0;
+}
+
+
+.links1{
+    color:rgb(233, 156, 14);
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.footer{
+    background-color: rgb(230, 148, 93);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.divfooter{
+    background-color: rgb(224, 138, 68);
+}
+.linkcontact{
+    color: rgb(250, 249, 246);
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+#tituloquebusco{
+    background-color: rgb(252, 216, 127);
+}
+
+#nombre{
+    text-align: center;
+    color: rgb(247, 233, 112);
+}
+
+
+#TITULOBUSCO{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgb(248, 203, 119), rgb(255, 224, 183));
+}
+ 
+.links{
+    background:linear-gradient(yellow, white);
+    text-align: center;
+    padding-top: 1cm;
+    
+}
+
+.linkss{
+    display: inline-block;
+    padding-inline: 80px;
+    height: 87px;
+}
+
+#pa1{
+    max-width: 600px;
+}
+#pa2{
+    max-width: 1900px;
+}
+#pa3{
+    max-width: 1600px;
+}
+#pa4{
+    max-width: 1500px;
+}
+#pa5{
+    max-width: 2000px;
+}
+#pa6{
+    max-width: 1800px;
+}
+#pa7{
+    max-width: 1760px;
+}
+#pa8{
+    max-width: 2600px;
+}
+
+#opop{
+    position: fixed;
+    top: 300px;
+    left: 0px;
+    height: 300px;
+    width: 1620px;
+    background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+    width: 100%;
+}
+
+.datos{
+    position: relative;
+    display: inline-block;
+    padding-inline: 120px;
+    top: 100px;
+    background-color: orange;
+    left: 40px;   
+}
+
+#telefonofoto{
+    position: relative;
+    background-color: transparent;
+    width: 55px;
+    left: 1145px;
+    top: 100px;
+}
+
+#maillogo{
+    position: relative;
+    background-color: transparent;
+    width: 32px;
+    left: 1466px;
+    top: 100px;
+
+}
+
+#ubilogo{
+    position: relative;
+    background-color: transparent;
+    width: 34px;
+    left: 735px;
+    top: 100px;
+}
+
+.divtitu{
+    background:linear-gradient(rgb(240, 169, 39),rgb(255, 255, 255));
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.titulo-links{
+    position: relative;
+    background-color: orange;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: overline;
+    font-size: 50;
+    bottom: 0px;
+    height: 100px;
+}
+
+.listasitems{
+    background:linear-gradient(orange,white);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    font-size: 36;
+    height: 700px;
+    width: 1700px;  
+    width: 100%;  
+}
+
+.elementoslista{
+    margin: 45px;
+    color: rgb(143, 90, 22);
+    font-size: 36;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+#boton{
+    color: white;
+    padding: 15px 25px;
+    position: absolute;
+    bottom: 100;
+    right: 100;
+    background-color: rgb(185, 98, 16);
+    border-radius: 130px;
+}
+
+.titu2{
+    position: absolute;
+    top: 200px;
+    background-color: orange;
+    color: rgb(59, 34, 1);
+    font-size: 27;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+
+#boton2{
+    color: white;
+    padding: 15px 25px;
+    position: absolute;
+    bottom: 70;
+    right: 2;
+    background-color: rgb(185, 98, 16);
+    border-radius: 130px;
+}
+
+#h2decomp{
+    position: absolute;
+    top: 110px;
+}
+
+.titu3{
+    background:linear-gradient(orange,white);
+    position: absolute;
+    top: 190;
+    left: 0;
+    height: 1000px;
+    font-size: 36;
+    height: 700px;
+    width: 1700px;  
+    width: 100%; 
+}
+
+#boton3{
+    color: white;
+    padding: 15px 25px;
+    position: absolute;
+    bottom: 70;
+    right: 2;
+    background-color: rgb(185, 98, 16);
+    border-radius: 130px;
+}
+
+.botonsiguiente{
+    z-index: 100000;
+    color: white;
+    padding: 15px 25px;
+    position: absolute;
+    top: 40;
+    right: 20;
+    background-color: rgb(185, 98, 16);
+    border-radius: 130px;
+}
+
+
+.botonatras{
+    z-index: 100000;
+    color: white;
+    padding: 15px 25px;
+    position: absolute;
+    top: 40;
+    left: 20;
+    background-color: rgb(185, 98, 16);
+    border-radius: 130px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive para celular*/
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        background:linear-gradient(rgb(250, 212, 44), white);
+        
+        width: 100%;
+    }
+
+    #navegador1 {
+        color: rgb(241, 182, 105);
+        position: absolute;
+        width: 100vw;
+        left: 0;
+    }
+
+    #frooo {
+        width: 125px;
+        height: 125px;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        border-radius: 50%;
+        z-index: 100;
+    }
+    #textobienvenida{
+        z-index: 1;
+        background-color: rgb(248, 192, 69);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        height: 90px;
+        width: 100%;
+        left: 0px;
+        padding-inline: 1px ;   
+    }
+
+    #texto0 {
+        color: rgb(255, 255, 255);
+        width: 80%;
+        top: 50px;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    #nombre{
+        position: absolute;
+        top: 45px;
+        left: 60px;
+    }
+
+    #loqbusco {
+        background:linear-gradient(rgb(252, 208, 90),white);
+        position: relative;
+        margin-top: 254px;
+        margin-bottom: 50px;    
+    }
+
+    #TITULOBUSCO{
+        margin-top: 20px;
+        bottom: 0;
+    }
+
+    
+
+    .footer{
+        position: fixed;
+        background-color: rgb(230, 148, 93);
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+    }
+    .datos{
+        top: 0;
+        left: 0;
+        flex-direction: row;
+          
+    }
+    .linkss{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        height: 55px;
+    }
+    #opop{
+        position: relative;
+        background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+        margin-top: 56px;
+        display: grid;
+    }
+    #boton{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 20;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+
+    #boton3{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+    
+    .botonsiguiente{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        right: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+    
+    
+    .botonatras{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        left: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+
+    #boton2{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+    .titulo-links{
+        position: relative;
+        background-color: orange;
+        text-align: center;
+        letter-spacing: 5px;
+        text-decoration: overline;
+        font-size: 30;
+        bottom: 0px;
+        height: 70px;
+    }
+    .listasitems{
+        background:linear-gradient(orange,white);
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 1000px;
+        height: 700px;
+        width: 1700px;  
+        width: 100%;  
+    }
+    .elementoslista{
+        margin: 15px;
+        color: rgb(143, 90, 22);
+        font-size: 28;
+        font-family: Arial, Helvetica, sans-serif
+    }    
+}
+
+
+
+/*mediaquery para 600-1200*/
+@media screen and (min-width: 600px) and (max-width: 1200px){
+
+    #frooo {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        border-radius: 50%;
+        z-index: 100;
+    }
+
+    #nombre{
+        position: relative;
+        top: 1px;
+        left: 26px;
+    }
+
+    .linkss{
+    position: relative;
+    padding: 9px;
+    }
+
+    #opop{
+        position: relative;
+        background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+        margin-top: 156px;
+        display: grid;
+    }
+
+    #textobienvenida{
+        z-index: 1;
+        background-color: rgb(248, 192, 69);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        height: 190px;
+        width: 100%;
+        left: 0px;
+        padding-inline: 1px ;   
+    }
+    .links{
+        background:linear-gradient(yellow, white);
+        text-align: center;
+        padding-top: 0; 
+        margin-bottom: 150px;      
+    }
+
+    #opop{
+        position: relative;
+        background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+        margin-top: 0;
+        display: grid;
+        text-align: center;
+        left: 0;
+    }
+
+    #loqbusco {
+        background:linear-gradient(rgb(252, 208, 90),white);
+        position: relative;
+        margin-top: 354px;
+        margin-bottom: 50px;    
+    }
+
+    #TITULOBUSCO{
+        margin-top: 20px;
+        bottom: 0;
+    }
+
+    .footer{
+        position: fixed;
+        background-color: rgb(230, 148, 93);
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+    }
+
+    .datos{
+        top: 0;
+        left: 0;
+        flex-direction: row;
+          
+    }
+
+    #boton{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 20;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+
+    #boton3{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+    
+    .botonsiguiente{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        right: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+    
+    
+    .botonatras{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        left: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+
+    #boton2{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+
+    .titulo-links{
+        position: relative;
+        background-color: orange;
+        text-align: center;
+        letter-spacing: 5px;
+        text-decoration: overline;
+        font-size: 30;
+        bottom: 0px;
+        height: 70px;
+    }
+
+    .listasitems{
+        background:linear-gradient(orange,white);
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 1000px;
+        height: 700px;
+        width: 1700px;  
+        width: 100%;  
+    }
+
+    .elementoslista{
+        margin: 15px;
+        color: rgb(143, 90, 22);
+        font-size: 28;
+        font-family: Arial, Helvetica, sans-serif
+    } 
+
+
+
+}
+
+
+
+/*arreglo*/
+@media screen and (min-width: 600px) and (max-width: 769px){
+
+    #frooo {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        top: 82px;
+        right: 0px;
+        border-radius: 50%;
+        z-index: 100;
+    }
+
+    #nombre{
+        position: relative;
+        top: 1px;
+        left: 26px;
+    }
+
+    .linkss{
+    position: relative;
+    padding: 9px;
+    }
+
+    #opop{
+        position: relative;
+        background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+        margin-top: 156px;
+        display: grid;
+    }
+
+    #textobienvenida{
+        z-index: 1;
+        background-color: rgb(248, 192, 69);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        height: 190px;
+        width: 100%;
+        left: 0px;
+        padding-inline: 1px ;   
+    }
+    .links{
+        background:linear-gradient(yellow, white);
+        text-align: center;
+        padding-top: 0; 
+        margin-bottom: 150px;      
+    }
+
+    #opop{
+        position: relative;
+        background:linear-gradient(rgb(252, 187, 103), rgb(255, 229, 142));
+        margin-top: 0;
+        display: grid;
+        text-align: center;
+        left: 0;
+    }
+
+    #loqbusco {
+        background:linear-gradient(rgb(252, 208, 90),white);
+        position: relative;
+        margin-top: 354px;
+        margin-bottom: 50px;    
+    }
+
+    #TITULOBUSCO{
+        margin-top: 20px;
+        bottom: 0;
+    }
+
+    .footer{
+        position: fixed;
+        background-color: rgb(230, 148, 93);
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+    }
+
+    .datos{
+        top: 0;
+        left: 0;
+        flex-direction: row;
+          
+    }
+
+    #boton{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 20;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+
+    #boton3{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+    
+    .botonsiguiente{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        right: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+    
+    
+    .botonatras{
+        z-index: 100000;
+        color: white;
+        padding: 1px 2px;
+        position: absolute;
+        top: 100;
+        left: 10;
+        background-color: rgb(185, 98, 16);
+        border-radius: 13px;
+    }
+
+    #boton2{
+        color: white;
+        padding: 15px 25px;
+        position: absolute;
+        bottom: 70;
+        right: 2;
+        background-color: rgb(185, 98, 16);
+        border-radius: 130px;
+    }
+
+    .titulo-links{
+        position: relative;
+        background-color: orange;
+        text-align: center;
+        letter-spacing: 5px;
+        text-decoration: overline;
+        font-size: 30;
+        bottom: 0px;
+        height: 70px;
+    }
+
+    .listasitems{
+        background:linear-gradient(orange,white);
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 1000px;
+        height: 700px;
+        width: 1700px;  
+        width: 100%;  
+    }
+    
+    .elementoslista{
+        margin: 15px;
+        color: rgb(143, 90, 22);
+        font-size: 28;
+        font-family: Arial, Helvetica, sans-serif
+    } 
+
+}
