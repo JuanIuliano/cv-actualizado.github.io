@@ -28,13 +28,13 @@
 }
 
 #frooo {
-    width: 310px;
-    height: 310px;
+    width: 210px;
+    height: 210px;
     position: fixed;
-    top: 45px;
-    right: 0;
+    top: 90px;
+    right: 15px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 1000;
 }
 
 
@@ -85,6 +85,31 @@
 #nombre{
     text-align: center;
     color: rgb(247, 233, 112);
+}
+
+#telefonofoto{
+    position: relative;
+    background-color: transparent;
+    width: 55px;
+    left: 1110px;
+    top: 337px;
+}
+
+#maillogo{
+    position: relative;
+    background-color: transparent;
+    width: 32px;
+    left: 1400px;
+    top: 337px;
+
+}
+
+#ubilogo{
+    position: relative;
+    background-color: transparent;
+    width: 34px;
+    left: 740px;
+    top: 337px;
 }
 
 
@@ -150,36 +175,12 @@ body{
 .datos{
     position: relative;
     display: inline-block;
-    padding-inline: 120px;
+    padding-inline: 100px;
     top: 100px;
     background-color: orange;
-    left: 40px;   
+    left: 150px;   
 }
 
-#telefonofoto{
-    position: relative;
-    background-color: transparent;
-    width: 55px;
-    left: 1145px;
-    top: 100px;
-}
-
-#maillogo{
-    position: relative;
-    background-color: transparent;
-    width: 32px;
-    left: 1466px;
-    top: 100px;
-
-}
-
-#ubilogo{
-    position: relative;
-    background-color: transparent;
-    width: 34px;
-    left: 735px;
-    top: 100px;
-}
 
 .divtitu{
     background:linear-gradient(rgb(240, 169, 39),rgb(255, 255, 255));
@@ -188,7 +189,6 @@ body{
     left: 0;
     top: 0;
     right: 0;
-    
 }
 
 
@@ -305,6 +305,30 @@ body{
     border-radius: 130px;
 }
 
+#contactametitulo{
+    background-color: orange;
+    padding-top: 45px;
+    text-align: center;
+    font-size: 45;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+ 
+.elementoslista1{
+    font-style: italic;
+    font-size: 25;
+    padding-top: 100px;
+
+
+}
+
+#contactamelista{
+    height: 80vh;
+    background:linear-gradient(orange, white);
+}
+
+
 
 
 
@@ -316,6 +340,9 @@ body{
 /* responsive para celular*/
 
 @media screen and (max-width: 600px) {
+    #telefonofoto, #maillogo, #ubilogo{
+        display: none;
+    }
 
     .header {
         background:linear-gradient(rgb(250, 212, 44), white);
@@ -489,7 +516,11 @@ body{
 
 
 /*mediaquery para 600-1200*/
-@media screen and (min-width: 600px) and (max-width: 1200px){
+@media screen and (min-width: 600px) and (max-width: 1400px){
+
+    #telefonofoto, #maillogo, #ubilogo{
+        display: none;
+    }
 
     #frooo {
         width: 110px;
@@ -665,6 +696,10 @@ body{
 
 /*arreglo*/
 @media screen and (min-width: 600px) and (max-width: 769px){
+
+    #telefonofoto, #maillogo, #ubilogo{
+        display: none;
+    }
 
     #frooo {
         width: 110px;
